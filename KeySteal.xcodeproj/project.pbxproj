@@ -1,0 +1,138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		155FA81122A29CDB00D68879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 155FA80D22A29CDB00D68879 /* keystealClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1584775E22007D7400CA5BE9;
+			remoteInfo = keystealClient;
+		};
+		155FA81722A29CE000D68879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 155FA81322A29CE000D68879 /* keystealDaemon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 158477382200788900CA5BE9;
+			remoteInfo = keystealDaemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		155FA80D22A29CDB00D68879 /* keystealClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = keystealClient.xcodeproj; path = keystealClient/keystealClient.xcodeproj; sourceTree = "<group>"; };
+		155FA81322A29CE000D68879 /* keystealDaemon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = keystealDaemon.xcodeproj; path = keystealDaemon/keystealDaemon.xcodeproj; sourceTree = "<group>"; };
+		155FA81922A29DB000D68879 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		155FA81F22A2B14C00D68879 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		155FA80622A29CBB00D68879 = {
+			isa = PBXGroup;
+			children = (
+				155FA81922A29DB000D68879 /* README.md */,
+				155FA81F22A2B14C00D68879 /* LICENSE.txt */,
+				155FA81322A29CE000D68879 /* keystealDaemon.xcodeproj */,
+				155FA80D22A29CDB00D68879 /* keystealClient.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		155FA80E22A29CDB00D68879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				155FA81222A29CDB00D68879 /* libkeystealClient.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		155FA81422A29CE000D68879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				155FA81822A29CE000D68879 /* keystealDaemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		155FA80722A29CBB00D68879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 155FA80A22A29CBB00D68879 /* Build configuration list for PBXProject "KeySteal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 155FA80622A29CBB00D68879;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 155FA80E22A29CDB00D68879 /* Products */;
+					ProjectRef = 155FA80D22A29CDB00D68879 /* keystealClient.xcodeproj */;
+				},
+				{
+					ProductGroup = 155FA81422A29CE000D68879 /* Products */;
+					ProjectRef = 155FA81322A29CE000D68879 /* keystealDaemon.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		155FA81222A29CDB00D68879 /* libkeystealClient.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libkeystealClient.dylib;
+			remoteRef = 155FA81122A29CDB00D68879 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		155FA81822A29CE000D68879 /* keystealDaemon */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = keystealDaemon;
+			remoteRef = 155FA81722A29CE000D68879 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		155FA80B22A29CBB00D68879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		155FA80C22A29CBB00D68879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		155FA80A22A29CBB00D68879 /* Build configuration list for PBXProject "KeySteal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155FA80B22A29CBB00D68879 /* Debug */,
+				155FA80C22A29CBB00D68879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 155FA80722A29CBB00D68879 /* Project object */;
+}
