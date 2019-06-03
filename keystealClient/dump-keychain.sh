@@ -22,5 +22,11 @@ fi
 echo "Setting DYLD_INSERT_LIBRARIES..."
 export DYLD_INSERT_LIBRARIES=$(pwd)/libkeystealClient.dylib
 
+if [ $# -eq 0 ]; then
+    args="-d"
+else
+    args="$@"
+fi
+
 echo "Dumping Keychains..."
-./security-unsigned dump-keychain -d
+./security-unsigned dump-keychain $args
