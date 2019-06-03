@@ -1,5 +1,5 @@
 # KeySteal
-KeySteal is a macOS <= 10.14.3 Keychain exploit that allows you to access passwords inside the Keychain without a user prompt.  
+KeySteal is a macOS <= 10.14.3 Keychain exploit that allows you to access passwords inside the Keychain without a user prompt. The vulnerability has been assigned CVE-2019-8526 number.  
 KeySteal consists of two parts:
 1. KeySteal Daemon: This is a daemon that exploits securityd to get a session that is allowed to access the Keychain without a password prompt.
 2. KeySteal Client: This is a library that can be injected into Apps. It will automatically apply a patch that forces the Security Framework to use the session of our keysteal daemon.
